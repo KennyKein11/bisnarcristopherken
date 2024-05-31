@@ -1,0 +1,45 @@
+body {
+    background-color: powderblue;
+  }
+h1{
+    background-color: rgb(245, 142, 206);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+  .pLabel {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 5px;
+  }
+  .in {
+    border: 2px solid rgb(130, 218, 15);
+    padding: 10px;
+    text-align: center;
+  }
+  #sub{
+    background-color:  tomato;
+    color: white;
+    border: 2px solid rgb(46, 230, 199);
+    padding: 10px;
+    margin-left: 650px;
+    margin-right: 650px;
+    text-align: center;
+  }
+  h2 {
+    background-color: tomato;
+    font-size: 160%;
+    color: white;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 5px;
+  }
+  p{
+    color: rgb(130, 218, 15);
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
