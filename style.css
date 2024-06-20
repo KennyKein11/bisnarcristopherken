@@ -168,6 +168,7 @@ height: 50px;
     width: 170px;
     display: flex;
     justify-content: space-between;
+    margin-left: 7%;
 }
 
 .home-sci a{
@@ -178,10 +179,10 @@ height: 50px;
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #00abf0;
+    border: 2px solid #0bcfdd;
     border-radius: 50%;
     font-size: 20px;
-    color:#00abf0;
+    color:#0bcfdd;
     text-decoration: none;
     z-index: 1;
     overflow: hidden;
@@ -200,7 +201,7 @@ height: 50px;
     left: 0;
     width: 0%;
     height: 100%;
-    background: #00abf0;
+    background: #0bcfdd;
     z-index: -1;
     transition: .5s;
 
@@ -218,14 +219,13 @@ height: 50px;
 
       }
 }
+
 .pic img{
     width: 50%; 
     height: 50%; 
     border-radius: 50%;
     object-fit: cover;
-    margin-left: 50%;
+    margin-right: 50%;
     box-shadow: 0 0 500px rgba(6, 248, 188, 0.5);
     outline: 5px solid rgba(11, 252, 232, 0.5);
-
 }
-
