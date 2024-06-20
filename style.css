@@ -14,7 +14,7 @@ body {
 .header{
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     padding: 20px 10%;
     background: transparent;
@@ -45,6 +45,8 @@ body {
     animation-delay: .4s;
 }
 
+
+
 .navbar a {
     font-size: 18px;
     color:#ededed;
@@ -52,6 +54,7 @@ body {
     font-weight: 500;
     margin-left: 35px;
     transition: .3s;
+
 }
 .navbar a:hover,
 .navbar a:active {
@@ -208,7 +211,7 @@ height: 50px;
 
 }
 
-/*KEYFRAMES ANIMATION*/
+
 @keyframes showRight {
       100% {
         width: 0;
@@ -216,3 +219,13 @@ height: 50px;
       }
 }
 
+.pic img {
+    width: 50%; 
+    height: 50%; 
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 50%;
+    box-shadow: 0 0 500px rgba(6, 248, 188, 0.5);
+    outline: 5px solid rgba(11, 252, 232, 0.5);
+
+}
