@@ -218,4 +218,14 @@ height: 50px;
 
       }
 }
+.pic img {
+    width: 50%; 
+    height: 50%; 
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 50%;
+    box-shadow: 0 0 500px rgba(6, 248, 188, 0.5);
+    outline: 5px solid rgba(11, 252, 232, 0.5);
+
+}
 
