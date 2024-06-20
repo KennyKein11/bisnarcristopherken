@@ -7,7 +7,7 @@
 
 body {
     color: white;
-    background-image: url(bisnar2.jpg);
+    background: url('bisnar2.jpg') no-repeat;
 }
 
 .header {
