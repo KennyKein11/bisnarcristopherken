@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: white;
+    background-image: url(bisnar2.jpg);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0; 
+    padding: 20px 10%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.logo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(52, 6, 179);
+    animation: showRight 1s ease forwards;
+    animation-delay: 0.4s;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a:active {
+    color: #00abf0;
+}
+
+#about {
+    padding: 50px 10%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#about h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#about h3 {
+    font-size: 24px;
+    color: #0b66dd;
+    margin-bottom: 20px;
+}
+
+#about h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+
+
+@keyframes showRight {
+    100% {
+        width: 0;
+    }
+}
+
+.pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 45%;
+    object-fit: cover;
+    box-shadow: 0 0 50px rgba(27, 25, 173, 0.5);
+    outline: 5px solid rgba(20, 33, 148, 0.5);
+}
