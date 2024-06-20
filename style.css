@@ -218,7 +218,7 @@ height: 50px;
 
       }
 }
-.pic img {
+.pic{
     width: 50%; 
     height: 50%; 
     border-radius: 50%;
