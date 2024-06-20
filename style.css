@@ -60,7 +60,7 @@ body {
 
 .home {
     height: 100vh;
-    background: url('Bluecloud.jpg') no-repeat;
+    background: url('bisnar2.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -87,7 +87,7 @@ body {
 .home-content h3 {
     font-size: 32px;
     font-weight: 700;
-    color: #0bcfdd;
+    color: #0b66dd;
     margin-bottom: 20px; 
 }
 
@@ -157,8 +157,8 @@ body {
 .pic img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 45%;
     object-fit: cover;
-    box-shadow: 0 0 50px rgba(6, 248, 188, 0.5);
-    outline: 5px solid rgba(11, 252, 232, 0.5);
+    box-shadow: 0 0 50px rgba(27, 25, 173, 0.5);
+    outline: 5px solid rgba(20, 33, 148, 0.5);
 }
